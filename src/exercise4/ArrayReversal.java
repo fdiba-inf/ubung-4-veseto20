@@ -7,9 +7,12 @@ public class ArrayReversal {
     Scanner input = new Scanner(System.in);
 
     int count = input.nextInt();
-    char[] text = new char[count];
-    for (int i=text.length-1; i>=0; i--);
-    text[i] = input.next.charAt(0);
-    System.out.println("Reversed symbols: " + text[i]);
-  }
-}
+    String[] name = new String[count];
+    for (int i=name.length-1; i>=0; i--){
+    name[i] = input.next();
+    
+    }
+   String numbersAsString= Arrays.toString(name);
+   System.out.println("Reversed symbols: "+numbersAsString);
+ }
+} 
