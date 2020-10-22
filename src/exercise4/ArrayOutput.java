@@ -12,11 +12,12 @@ public class ArrayOutput {
     int[] numbers = new int[count];
     for(int i=0; i<numbers.length; i++){
     numbers[i] = input.nextInt();
-    System.out.println("" + numbers[0]);
-    System.out.println(" " + numbers[1]);
-    System.out.println("  " + numbers[2]);
-    System.out.println("   " + numbers[3]);
-     System.out.println("    " + numbers[4]);
+
+    for(int j=0; j < i; j++){
+    System.out.println(" ");
+    
    }
+System.out.println(numbers[i]);
  }
+}
 }  
