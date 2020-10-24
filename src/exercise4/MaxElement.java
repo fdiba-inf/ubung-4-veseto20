@@ -13,14 +13,16 @@ public class MaxElement {
     for(int i=0; i<numbers.length; i++){
     numbers[i] = input.nextDouble();
     
-      }
+    }
       double max = Double.MIN_VALUE;
-      for(int c = 0; c<numbers.length; c++);
-      if(numbers>=0)
+      for(int c = 0; c<numbers.length; c++){
+      if(numbers[c]>max){
+        max=numbers[c];
+      }
 
-    
+    }
     System.out.println("Max number: " + max) ;
 
     }
   }
-}   
+   
